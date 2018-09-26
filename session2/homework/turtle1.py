@@ -1,18 +1,19 @@
 from turtle import *
 
 pencolor("red")
-t = 120
+fillcolor("red")
+length = 80
+angle = 150
 
 for i in range(4):
-    left(t)
-    forward(80)
-    right(60)
-    forward(80)
-    right(120)
-    forward(80)
-    right(60)
-    forward(80)
-    t=150
-left(180)
-    
+    left(angle)
+    forward(length)
+    left(60)
+    forward(length)
+    left(120)
+    forward(length)
+    left(60)
+    forward(length)
+    angle=30
+
 mainloop()
